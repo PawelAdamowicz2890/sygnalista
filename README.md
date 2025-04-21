@@ -34,6 +34,6 @@
 ✅ Przegląd i zarządzanie zgłoszeniami<br>
 ✅ Nadawanie i zmiana statusów zgłoszeń
 
-## Autor
+## ✨ Autor
 
 Paweł Adamowicz
