@@ -1,0 +1,17 @@
+.background {
+    background-color: blue;
+    background-position: bottom;
+    background-size: cover;
+}
+.btn {
+    background-color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: aqua;
+    color: white;
+}
+.cent {
+    text-align: center;
+}

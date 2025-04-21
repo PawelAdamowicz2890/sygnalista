@@ -1,0 +1,60 @@
+function anonimowy()
+{
+    
+    if(document.getElementById('an').checked)
+    {
+        document.getElementById('im').disabled=true;
+        document.getElementById('nazw').disabled=true;
+        document.getElementById('mail').disabled=true;
+        document.getElementById('haslo').disabled=true;
+        document.getElementById('haslo2').disabled=true;
+        document.getElementById('t1').hidden=true;
+        document.getElementById('t2').hidden=true;
+        document.getElementById('t3').hidden=true;
+        document.getElementById('t4').hidden=true;
+        document.getElementById('t5').hidden=true;
+        document.getElementById('an').value="1";
+    }
+    else
+    {
+        document.getElementById('im').disabled=false;
+        document.getElementById('nazw').disabled=false;
+        document.getElementById('mail').disabled=false;
+        document.getElementById('haslo').disabled=false;
+        document.getElementById('haslo2').disabled=false;
+        document.getElementById('t1').hidden=false;
+        document.getElementById('t2').hidden=false;
+        document.getElementById('t3').hidden=false;
+        document.getElementById('t4').hidden=false;
+        document.getElementById('t5').hidden=false;
+        document.getElementById('an').value="0";
+    }
+}
+function ciastka()
+{
+    if(document.getElementById('ci').checked)
+    {
+        document.getElementById('ci').value="1";
+    }
+    else
+    {
+        document.getElementById('ci').value="0";
+    }
+}
+function anonim()
+{
+    if(document.getElementById('anon').checked)
+    {
+        document.getElementById('has').disabled=true;
+        document.getElementById('th').hidden=true;
+        document.getElementById('ci').disabled=true;
+        document.getElementById('anon').value="1";
+    }
+    else
+    {
+        document.getElementById('has').disabled=false;
+        document.getElementById('th').hidden=false;
+        document.getElementById('ci').disabled=false;
+        document.getElementById('anon').value="0";
+    }
+}
